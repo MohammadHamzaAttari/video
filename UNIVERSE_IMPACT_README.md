@@ -1,51 +1,56 @@
 # Universe Impact — Black-Hole Cosmology Reel
 
-## Active deliverable: motion-first dynamic v2
+## Active deliverable: fresh-source / original-3D v3
 
-The current delivery is a vertical, Facebook-ready **Universe Impact** Reel that asks whether the Big Bang could be the inside of a black hole — while clearly labeling that premise as a **hypothesis, not established fact**.
+The active production package is a vertical, Facebook-ready **Universe Impact** Reel exploring whether the Big Bang could be the inside view of a black hole. It explicitly frames that as a **hypothesis, not established fact**.
 
-- **Video:** `deliverables/universe_impact_black_hole_reel_dynamic_v2.mp4`
-- **Cover:** `deliverables/universe_impact_black_hole_cover_dynamic_v2.jpg`
-- **Upload captions:** `deliverables/universe_impact_black_hole_reel_dynamic_v2.srt`
-- **Facebook copy / provenance:** `deliverables/UNIVERSE_IMPACT_FACEBOOK_POST_DYNAMIC_V2.md`
-- **Shot-level render manifest:** `deliverables/universe_impact_black_hole_reel_dynamic_v2_manifest.json`
-- **Format:** 1080 × 1920 vertical, H.264/AAC, 30 fps, approximately 78 seconds
+| Deliverable | Path |
+| --- | --- |
+| Final Reel | `deliverables/universe_impact_black_hole_reel_fresh_3d_v3.mp4` |
+| Cover | `deliverables/universe_impact_black_hole_cover_fresh_3d_v3.jpg` |
+| Upload captions | `deliverables/universe_impact_black_hole_reel_fresh_3d_v3.srt` |
+| Facebook copy / publishing notes | `deliverables/UNIVERSE_IMPACT_FACEBOOK_POST_FRESH_3D_V3.md` |
+| Source / cut / render manifest | `deliverables/universe_impact_black_hole_reel_fresh_3d_v3_manifest.json` |
+| New source-asset provenance | `assets/universe_impact_fresh_v3/SOURCES.md` |
 
-## What changed in v2
+**Delivery format:** 1080 × 1920 vertical, H.264 High / yuv420p, AAC stereo 48 kHz, 30 fps, about 77.9 seconds.
 
-This is not a static-image refresh. It replaces the earlier artist-concept/image-led narrative backgrounds with **34 short moving editorial extracts** from NASA Scientific Visualization Studio source footage.
+## What is different in v3
 
-1. The edit changes visual shots roughly every 2.1–2.6 seconds.
-2. It combines immersive portrait crops with moving “science-feed” frames over a moving blurred source background — preserving wide NASA visualizations without frozen side bars.
-3. It uses only motion footage for story beats; no still artwork carries a section of narration.
-4. It adds short kinetic headline and evidence cards rather than holding a single title unchanged through an entire spoken scene.
-5. It retains the original score / impact accents, on-screen **“Hypothesis / Not Established Fact”** disclosure, SRT captions, visual attribution, and evidence-first ending.
-6. Every NASA source-audio track is stripped. The edit uses only the project’s original generated score and accents, avoiding any music attached to the source media.
+This is a real source replacement, not a new crop of the old cut.
 
-### NASA motion-source pages
+1. **No v2 source clip is read or used.** The v3 build intentionally never opens `sources/clip1_bh_orbit.mp4`, `clip2_tde_shred.mp4`, `clip3_tde_disk.mp4`, `clip4_tde_partial.mp4`, or `clip5_tde_fading.mov`.
+2. **Three newly acquired public-domain animated visual clips** are included as versioned source assets: NASA SVS 14132’s Supermassive Binary Black Hole Simulation, Disk and Corona, and LMXB Illustration. Their moving frames are retained in the edit; no frame dump or static background carries their story beats.
+3. **Six original dynamic 3D tracks** are newly rendered for Universe Impact: an orbiting/lensing-style accretion disk, collapse-to-bounce tunnel, cosmic-web flight, rotating pattern sphere, warped-spacetime grid, and cosmic-dawn finale. They use local geometry, particles, perspective camera motion, glow, and an original edit—not downloaded old clips.
+4. The Reel contains **34 short moving passages** (about 2.1–2.6 seconds each), animated portrait reframing / source portals, short kinetic headline cards, and an original generated score with cut accents.
+5. All source audio is absent or stripped. No external music, source narration, NASA logo, or prior v2 video footage is used.
+6. The copy keeps the evidence-first resolution: a viable model needs a **unique, testable observational fingerprint**; there is no claim that NASA, JWST, CMB data, or gravitational-wave data has established black-hole cosmology.
 
-- **Isolated Black Hole Visualization** — orbiting a bare black hole and tidal-disruption visualization: https://svs.gsfc.nasa.gov/14620/
-- **Massive Black Hole Shreds Passing Star**: https://svs.gsfc.nasa.gov/12005/
-- **Supercomputer Simulations Test Star-destroying Black Holes**: https://svs.gsfc.nasa.gov/14000/
-- **Swift Charts a Star’s “Death Spiral” into Black Hole**: https://svs.gsfc.nasa.gov/12499/
+### Rights and source scope
 
-NASA SVS says its visualizations are public domain unless otherwise noted. See the v2 posting pack and manifest for the exact downloaded asset URLs, credits, and the timeline of every extract.
+The three external animated files are tracked in `assets/universe_impact_fresh_v3/` with acquisition hashes, source URLs, individual credit lines, and public-domain rationale. Their Commons file pages classify the selected NASA SVS works as public domain in the United States, and NASA SVS states its content is public domain unless otherwise noted.
 
-## Re-rendering v2
+## Re-render v3
 
-Install the small dependencies once:
+Install dependencies once:
 
 ```bash
 python3 -m pip install -r requirements-universe-impact.txt
 ```
 
-Render from an existing narration cache:
+The complete fresh v3 build is:
 
 ```bash
-python3 build_universe_impact_dynamic_v2.py --render-only --force
+python3 build_universe_impact_fresh_3d_v3.py --render-only --force
 ```
 
-The dynamic script intentionally retains the requested Edge-TTS configuration and the `socket.getaddrinfo` / `aiohttp` resolver workaround for `speech.platform.bing.com`:
+This command renders the six original video tracks, re-edits the three tracked public-domain animated sources, burns captions, generates original music, muxes the final Reel, makes the cover, writes the SRT / publishing pack / manifest, and runs decode validation.
+
+`FFMPEG_BIN=/path/to/ffmpeg` optionally selects a specific FFmpeg executable. If system FFmpeg is missing, the script tries `imageio-ffmpeg`.
+
+### Required Edge-TTS configuration
+
+The v3 build script retains the requested settings and a `socket.getaddrinfo` / `aiohttp` `ThreadedResolver` workaround for `speech.platform.bing.com`:
 
 ```text
 engine: edge-tts
@@ -53,17 +58,19 @@ voice:  en-US-ChristopherNeural
 rate:   +0%
 ```
 
-On a network-permitted host, create compliant narration first, then render:
+On a network-permitted host, generate narration before rendering:
 
 ```bash
-python3 build_universe_impact_dynamic_v2.py --voice-only --force
-python3 build_universe_impact_dynamic_v2.py --render-only --force
+python3 build_universe_impact_fresh_3d_v3.py --voice-only --force
+python3 build_universe_impact_fresh_3d_v3.py --render-only --force
 ```
 
-`FFMPEG_BIN=/path/to/ffmpeg` optionally selects a specific FFmpeg executable; `imageio-ffmpeg` is used automatically when system FFmpeg is not available.
+The current sandbox cannot connect to the Edge endpoint, so the production render uses the existing local narration cache whose copy is identical to v3’s script. The script contains the exact requested configuration, but this sandbox cannot independently authenticate the cached speaker identity. Regenerate with `--voice-only` on an Edge-permitted host before publicly claiming that strict voice verification.
 
-> **Voice verification:** The code preserves the exact requested Christopher setting. The current sandbox could not reach Edge TTS, so its existing narration cache cannot independently be certified here as a strict Christopher render. Regenerate the cache on an Edge-permitted host before publicly claiming that exact voice identity.
+## Scientific editorial guardrail
 
-## Editorial guardrail
+“Black-hole cosmology” remains speculative. Keep “hypothesis,” “conceptual model,” and “no direct proof yet” in the post copy and replies. Do not promote the Reel as evidence that NASA, JWST, or any observatory has proved humanity lives inside a black hole.
 
-“Black-hole cosmology” remains speculative. The Reel intentionally does **not** claim that NASA, JWST, or any observatory has proved humanity lives inside a black hole. It states that a serious model would need a unique observational fingerprint — for example in the CMB or primordial gravitational-wave data — that rival explanations cannot reproduce.
+## Prior package
+
+The former motion-first v2 artifacts and `build_universe_impact_dynamic_v2.py` remain in the repository as an archived fallback. They are deliberately not inputs to v3.

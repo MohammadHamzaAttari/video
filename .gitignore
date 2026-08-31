@@ -2,6 +2,8 @@
 /inspection/
 /build_universe_impact/
 /build_universe_impact_dynamic_v2/
+/build_universe_impact_fresh_3d_v3/
+/image-search/
 
 # Python tooling
 __pycache__/

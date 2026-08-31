@@ -1,0 +1,587 @@
+{
+  "version": "fresh-3d-v3",
+  "title": "Could the Big Bang Be an Inside View? | Hypothesis, Not Proof",
+  "page": "Universe Impact",
+  "output": "universe_impact_black_hole_reel_fresh_3d_v3.mp4",
+  "cover": "universe_impact_black_hole_cover_fresh_3d_v3.jpg",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 77.9
+  },
+  "source_replacement": {
+    "is_true_replacement_not_v2_recut": true,
+    "legacy_v2_source_directory_read": false,
+    "legacy_v2_asset_paths_excluded": [
+      "sources/clip1_bh_orbit.mp4",
+      "sources/clip2_tde_shred.mp4",
+      "sources/clip3_tde_disk.mp4",
+      "sources/clip4_tde_partial.mp4",
+      "sources/clip5_tde_fading.mov"
+    ],
+    "fresh_external_public_domain_animated_assets": 3,
+    "original_3d_video_tracks_rendered": 6,
+    "source_audio_used": false
+  },
+  "visual_strategy": {
+    "static_story_backgrounds_used": false,
+    "total_moving_shots": 34,
+    "external_public_domain_animation_shots": 9,
+    "original_3d_animation_shots": 25,
+    "typical_shot_duration_seconds": "approximately 2.1\u20132.6",
+    "edit_elements": [
+      "new public-domain animated NASA 3D source clips",
+      "six original 3D moving visual tracks",
+      "portrait reframing and animated observation portals",
+      "kinetic headline cards",
+      "original procedural score and cut accents"
+    ]
+  },
+  "voice_requested": {
+    "engine": "edge-tts",
+    "voice": "en-US-ChristopherNeural",
+    "rate": "+0%"
+  },
+  "voice_verification": "The exact requested Edge-TTS configuration and getaddrinfo workaround are retained in the v3 build script. The existing cache could not be independently re-authenticated in this sandbox because the Edge endpoint is unreachable.",
+  "scientific_framing": "Speculative hypothesis; no direct observational proof is claimed.",
+  "source_clips": {
+    "nasa_binary_3d": {
+      "local_file": "assets/universe_impact_fresh_v3/nasa_svs14132_supermassive_binary_simulation.gif",
+      "title": "Supermassive Binary Black Hole Simulation",
+      "page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_Supermassive_Binary_Black_Hole_Simulation).gif",
+      "primary_source": "https://svs.gsfc.nasa.gov/14132/",
+      "credit": "NASA\u2019s Goddard Space Flight Center",
+      "license": "Public domain in the United States; Wikimedia Commons identifies this NASA work as public domain.",
+      "acquired_for_v3": "2026-08-31",
+      "sha256": "1cf97d3b6cd9a7da3ad55326b233cb1039e5415735d8e0cf6ebd48a59953cc92",
+      "duration_seconds": 4.8,
+      "bytes": 2953155
+    },
+    "nasa_disk_corona": {
+      "local_file": "assets/universe_impact_fresh_v3/nasa_svs14132_disk_and_corona.gif",
+      "title": "Disk and Corona",
+      "page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_Disk_and_Corona).gif",
+      "primary_source": "https://svs.gsfc.nasa.gov/14132/",
+      "credit": "Aurore Simonnet and NASA\u2019s Goddard Space Flight Center",
+      "license": "Public domain in the United States; Wikimedia Commons identifies this NASA work as public domain.",
+      "acquired_for_v3": "2026-08-31",
+      "sha256": "b1b787563f81dc42311a4bb9b2234f5c8760670969e8dbb0c2ddcf4812f2d350",
+      "duration_seconds": 4.8,
+      "bytes": 1267564
+    },
+    "nasa_lmxb_outburst": {
+      "local_file": "assets/universe_impact_fresh_v3/nasa_svs14132_lmxb_outburst.gif",
+      "title": "LMXB Illustration \u2014 Black Hole Outburst",
+      "page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_LMXB_Illustration).gif",
+      "primary_source": "https://svs.gsfc.nasa.gov/14132/",
+      "credit": "NASA/Goddard Space Flight Center/Conceptual Image Lab",
+      "license": "Public domain in the United States; Wikimedia Commons identifies this NASA work as public domain.",
+      "acquired_for_v3": "2026-08-31",
+      "sha256": "6f5257da8b5ff10064f99d9f2245194d7983687228bb6e0f6f279c7ec8d4a47d",
+      "duration_seconds": 11.25,
+      "bytes": 2789717
+    },
+    "original_lens_orbit": {
+      "local_file": "build_universe_impact_fresh_3d_v3/original_3d/lens_orbit.mp4",
+      "title": "Lens Orbit \u2014 original Universe Impact 3D sequence",
+      "page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "primary_source": "Original procedural geometry, particles, camera animation, and local generated textures.",
+      "credit": "Universe Impact original visualization",
+      "license": "Original project output; no third-party footage or source-audio used.",
+      "acquired_for_v3": "Rendered during build",
+      "sha256": "f8f853c244244e89d5515c7829109f40ebda2bdcebccb4170ea261194392c5f7",
+      "duration_seconds": 13.0,
+      "bytes": 19276185
+    },
+    "original_bounce_tunnel": {
+      "local_file": "build_universe_impact_fresh_3d_v3/original_3d/bounce_tunnel.mp4",
+      "title": "Bounce Tunnel \u2014 original Universe Impact 3D sequence",
+      "page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "primary_source": "Original procedural geometry, particles, camera animation, and local generated textures.",
+      "credit": "Universe Impact original visualization",
+      "license": "Original project output; no third-party footage or source-audio used.",
+      "acquired_for_v3": "Rendered during build",
+      "sha256": "6a2f9372e6b356d85817991731ba7ec1d8c22b2ba19a4cfd0a5262bf44ed8b0a",
+      "duration_seconds": 13.0,
+      "bytes": 19755765
+    },
+    "original_cosmic_web": {
+      "local_file": "build_universe_impact_fresh_3d_v3/original_3d/cosmic_web.mp4",
+      "title": "Cosmic Web \u2014 original Universe Impact 3D sequence",
+      "page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "primary_source": "Original procedural geometry, particles, camera animation, and local generated textures.",
+      "credit": "Universe Impact original visualization",
+      "license": "Original project output; no third-party footage or source-audio used.",
+      "acquired_for_v3": "Rendered during build",
+      "sha256": "de3c8b7e5da62a8cf21f9190a56441fa3dc62cbf4209ba16bedf8189c79715fe",
+      "duration_seconds": 13.0,
+      "bytes": 14757715
+    },
+    "original_cmb_signal": {
+      "local_file": "build_universe_impact_fresh_3d_v3/original_3d/cmb_signal.mp4",
+      "title": "Cmb Signal \u2014 original Universe Impact 3D sequence",
+      "page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "primary_source": "Original procedural geometry, particles, camera animation, and local generated textures.",
+      "credit": "Universe Impact original visualization",
+      "license": "Original project output; no third-party footage or source-audio used.",
+      "acquired_for_v3": "Rendered during build",
+      "sha256": "07007424cdadcc49551c9484239febcb5c878ca1032b5fc8b3bf40fe05ee34d7",
+      "duration_seconds": 13.0,
+      "bytes": 17295117
+    },
+    "original_spacetime_waves": {
+      "local_file": "build_universe_impact_fresh_3d_v3/original_3d/spacetime_waves.mp4",
+      "title": "Spacetime Waves \u2014 original Universe Impact 3D sequence",
+      "page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "primary_source": "Original procedural geometry, particles, camera animation, and local generated textures.",
+      "credit": "Universe Impact original visualization",
+      "license": "Original project output; no third-party footage or source-audio used.",
+      "acquired_for_v3": "Rendered during build",
+      "sha256": "b979c44d93573bd49e9d13521a931d8355f0bf31bc15fb2a658773289c22ff13",
+      "duration_seconds": 13.0,
+      "bytes": 20791570
+    },
+    "original_universe_dawn": {
+      "local_file": "build_universe_impact_fresh_3d_v3/original_3d/universe_dawn.mp4",
+      "title": "Universe Dawn \u2014 original Universe Impact 3D sequence",
+      "page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "primary_source": "Original procedural geometry, particles, camera animation, and local generated textures.",
+      "credit": "Universe Impact original visualization",
+      "license": "Original project output; no third-party footage or source-audio used.",
+      "acquired_for_v3": "Rendered during build",
+      "sha256": "9a008df4319389ed9159548b02ba06ba1ced774174065e08a44d9ff08bacf298",
+      "duration_seconds": 13.0,
+      "bytes": 19466954
+    }
+  },
+  "timeline": [
+    {
+      "key": "01_hook",
+      "start": 0.0,
+      "end": 4.79,
+      "narration": "What if the Big Bang was the inside of a black hole?"
+    },
+    {
+      "key": "02_hypothesis",
+      "start": 4.79,
+      "end": 13.35,
+      "narration": "Not a fact. Not a discovery. A breathtaking hypothesis called black hole cosmology."
+    },
+    {
+      "key": "03_bounce",
+      "start": 13.35,
+      "end": 25.15,
+      "narration": "In some models, collapse does not end at a singularity. Some quantum gravity ideas replace it with a bounce, opening a new region of expanding space time."
+    },
+    {
+      "key": "04_inside",
+      "start": 25.15,
+      "end": 34.43,
+      "narration": "From inside, that bounce could look like a Big Bang: no center, just space expanding everywhere at once."
+    },
+    {
+      "key": "05_limit",
+      "start": 34.43,
+      "end": 46.15,
+      "narration": "But this is where honesty matters. Our best theories clash in these extreme conditions, and no observation shows our universe was born this way."
+    },
+    {
+      "key": "06_fingerprint",
+      "start": 46.15,
+      "end": 59.1,
+      "narration": "To become science, the idea needs a fingerprint: a unique pattern in the cosmic microwave background, or primordial gravitational waves that rival explanations cannot copy."
+    },
+    {
+      "key": "07_honesty",
+      "start": 59.1,
+      "end": 65.3,
+      "narration": "Until then, the answer is not yes. It is: we do not know."
+    },
+    {
+      "key": "08_cta",
+      "start": 65.3,
+      "end": 78.1,
+      "narration": "That is still astonishing. The cosmos may be stranger than our best story. Universe Impact. Follow for wonder, evidence first."
+    }
+  ],
+  "shots": [
+    {
+      "scene": "01_hook",
+      "timeline_start": 0.0,
+      "timeline_end": 2.4,
+      "source_key": "original_lens_orbit",
+      "source_start": 0.2,
+      "layout": "immersive",
+      "source_title": "Lens Orbit \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "01_hook",
+      "timeline_start": 2.4,
+      "timeline_end": 4.79,
+      "source_key": "nasa_binary_3d",
+      "source_start": 0.4,
+      "layout": "portal",
+      "source_title": "Supermassive Binary Black Hole Simulation",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_Supermassive_Binary_Black_Hole_Simulation).gif",
+      "external_public_domain_source": true
+    },
+    {
+      "scene": "02_hypothesis",
+      "timeline_start": 4.79,
+      "timeline_end": 6.923,
+      "source_key": "nasa_binary_3d",
+      "source_start": 1.7,
+      "layout": "portal",
+      "source_title": "Supermassive Binary Black Hole Simulation",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_Supermassive_Binary_Black_Hole_Simulation).gif",
+      "external_public_domain_source": true
+    },
+    {
+      "scene": "02_hypothesis",
+      "timeline_start": 6.923,
+      "timeline_end": 9.057,
+      "source_key": "original_lens_orbit",
+      "source_start": 3.9,
+      "layout": "immersive",
+      "source_title": "Lens Orbit \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "02_hypothesis",
+      "timeline_start": 9.057,
+      "timeline_end": 11.19,
+      "source_key": "original_spacetime_waves",
+      "source_start": 0.8,
+      "layout": "immersive",
+      "source_title": "Spacetime Waves \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "02_hypothesis",
+      "timeline_start": 11.19,
+      "timeline_end": 13.35,
+      "source_key": "nasa_disk_corona",
+      "source_start": 0.2,
+      "layout": "portal",
+      "source_title": "Disk and Corona",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_Disk_and_Corona).gif",
+      "external_public_domain_source": true
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 13.35,
+      "timeline_end": 15.717,
+      "source_key": "original_bounce_tunnel",
+      "source_start": 0.2,
+      "layout": "immersive",
+      "source_title": "Bounce Tunnel \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 15.717,
+      "timeline_end": 18.083,
+      "source_key": "nasa_lmxb_outburst",
+      "source_start": 0.3,
+      "layout": "portal",
+      "source_title": "LMXB Illustration \u2014 Black Hole Outburst",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_LMXB_Illustration).gif",
+      "external_public_domain_source": true
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 18.083,
+      "timeline_end": 20.45,
+      "source_key": "original_bounce_tunnel",
+      "source_start": 4.1,
+      "layout": "immersive",
+      "source_title": "Bounce Tunnel \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 20.45,
+      "timeline_end": 22.817,
+      "source_key": "original_universe_dawn",
+      "source_start": 0.8,
+      "layout": "immersive",
+      "source_title": "Universe Dawn \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 22.817,
+      "timeline_end": 25.15,
+      "source_key": "original_bounce_tunnel",
+      "source_start": 8.1,
+      "layout": "immersive",
+      "source_title": "Bounce Tunnel \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "04_inside",
+      "timeline_start": 25.15,
+      "timeline_end": 27.483,
+      "source_key": "original_cosmic_web",
+      "source_start": 0.4,
+      "layout": "immersive",
+      "source_title": "Cosmic Web \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "04_inside",
+      "timeline_start": 27.483,
+      "timeline_end": 29.817,
+      "source_key": "original_universe_dawn",
+      "source_start": 3.2,
+      "layout": "immersive",
+      "source_title": "Universe Dawn \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "04_inside",
+      "timeline_start": 29.817,
+      "timeline_end": 32.15,
+      "source_key": "original_cosmic_web",
+      "source_start": 5.1,
+      "layout": "immersive",
+      "source_title": "Cosmic Web \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "04_inside",
+      "timeline_start": 32.15,
+      "timeline_end": 34.43,
+      "source_key": "original_lens_orbit",
+      "source_start": 8.4,
+      "layout": "immersive",
+      "source_title": "Lens Orbit \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 34.43,
+      "timeline_end": 36.763,
+      "source_key": "original_spacetime_waves",
+      "source_start": 0.5,
+      "layout": "immersive",
+      "source_title": "Spacetime Waves \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 36.763,
+      "timeline_end": 39.097,
+      "source_key": "nasa_binary_3d",
+      "source_start": 0.7,
+      "layout": "portal",
+      "source_title": "Supermassive Binary Black Hole Simulation",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_Supermassive_Binary_Black_Hole_Simulation).gif",
+      "external_public_domain_source": true
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 39.097,
+      "timeline_end": 41.43,
+      "source_key": "original_cosmic_web",
+      "source_start": 7.2,
+      "layout": "immersive",
+      "source_title": "Cosmic Web \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 41.43,
+      "timeline_end": 43.763,
+      "source_key": "original_spacetime_waves",
+      "source_start": 5.1,
+      "layout": "immersive",
+      "source_title": "Spacetime Waves \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 43.763,
+      "timeline_end": 46.15,
+      "source_key": "nasa_lmxb_outburst",
+      "source_start": 5.7,
+      "layout": "portal",
+      "source_title": "LMXB Illustration \u2014 Black Hole Outburst",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_LMXB_Illustration).gif",
+      "external_public_domain_source": true
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 46.15,
+      "timeline_end": 48.317,
+      "source_key": "original_cmb_signal",
+      "source_start": 0.2,
+      "layout": "immersive",
+      "source_title": "Cmb Signal \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 48.317,
+      "timeline_end": 50.483,
+      "source_key": "original_spacetime_waves",
+      "source_start": 8.0,
+      "layout": "immersive",
+      "source_title": "Spacetime Waves \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 50.483,
+      "timeline_end": 52.65,
+      "source_key": "original_cmb_signal",
+      "source_start": 4.0,
+      "layout": "immersive",
+      "source_title": "Cmb Signal \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 52.65,
+      "timeline_end": 54.817,
+      "source_key": "nasa_disk_corona",
+      "source_start": 0.8,
+      "layout": "portal",
+      "source_title": "Disk and Corona",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_Disk_and_Corona).gif",
+      "external_public_domain_source": true
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 54.817,
+      "timeline_end": 56.983,
+      "source_key": "original_universe_dawn",
+      "source_start": 5.2,
+      "layout": "immersive",
+      "source_title": "Universe Dawn \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 56.983,
+      "timeline_end": 59.1,
+      "source_key": "original_cmb_signal",
+      "source_start": 8.1,
+      "layout": "immersive",
+      "source_title": "Cmb Signal \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "07_honesty",
+      "timeline_start": 59.1,
+      "timeline_end": 61.167,
+      "source_key": "original_spacetime_waves",
+      "source_start": 6.0,
+      "layout": "immersive",
+      "source_title": "Spacetime Waves \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "07_honesty",
+      "timeline_start": 61.167,
+      "timeline_end": 63.233,
+      "source_key": "original_lens_orbit",
+      "source_start": 8.8,
+      "layout": "immersive",
+      "source_title": "Lens Orbit \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "07_honesty",
+      "timeline_start": 63.233,
+      "timeline_end": 65.3,
+      "source_key": "original_universe_dawn",
+      "source_start": 9.3,
+      "layout": "immersive",
+      "source_title": "Universe Dawn \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 65.3,
+      "timeline_end": 67.867,
+      "source_key": "original_universe_dawn",
+      "source_start": 0.4,
+      "layout": "immersive",
+      "source_title": "Universe Dawn \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 67.867,
+      "timeline_end": 70.433,
+      "source_key": "nasa_lmxb_outburst",
+      "source_start": 6.4,
+      "layout": "portal",
+      "source_title": "LMXB Illustration \u2014 Black Hole Outburst",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_LMXB_Illustration).gif",
+      "external_public_domain_source": true
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 70.433,
+      "timeline_end": 73.0,
+      "source_key": "original_lens_orbit",
+      "source_start": 4.7,
+      "layout": "immersive",
+      "source_title": "Lens Orbit \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 73.0,
+      "timeline_end": 75.567,
+      "source_key": "nasa_binary_3d",
+      "source_start": 2.0,
+      "layout": "portal",
+      "source_title": "Supermassive Binary Black Hole Simulation",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_Hole_Week-_Black_Hole_GIFs_(SVS14132_-_BHW_Supermassive_Binary_Black_Hole_Simulation).gif",
+      "external_public_domain_source": true
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 75.567,
+      "timeline_end": 78.1,
+      "source_key": "original_universe_dawn",
+      "source_start": 7.1,
+      "layout": "immersive",
+      "source_title": "Universe Dawn \u2014 original Universe Impact 3D sequence",
+      "source_page": "Created by fresh_3d_visuals.py during this v3 build.",
+      "external_public_domain_source": false
+    }
+  ],
+  "final_file_sha256": "a5dc16143a2d07c6f074c2a478f73f02ef40bf67e7854025342822ee0bfb7ee0",
+  "cover_sha256": "2fa1ff91e3d50065bb0b3b511d47505d43ccc4570d0f95925c7aa0068e94f692",
+  "decode_validation": "ffmpeg -v error -i final.mp4 -f null - completed with exit code 0 during build"
+}
