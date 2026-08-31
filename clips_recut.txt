@@ -1,0 +1,7 @@
+file '/home/user/video/sources_recut/s1.mp4'
+file '/home/user/video/sources_recut/s2.mp4'
+file '/home/user/video/sources_recut/s3.mp4'
+file '/home/user/video/sources_recut/s4.mp4'
+file '/home/user/video/sources_recut/s5.mp4'
+file '/home/user/video/sources_recut/s6.mp4'
+file '/home/user/video/sources_recut/s7.mp4'
