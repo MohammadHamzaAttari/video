@@ -1,6 +1,7 @@
 # Local inspection frames and intermediate render cache
 /inspection/
 /build_universe_impact/
+/build_universe_impact_dynamic_v2/
 
 # Python tooling
 __pycache__/

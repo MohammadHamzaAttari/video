@@ -1,0 +1,422 @@
+{
+  "version": "dynamic-v2",
+  "title": "Could the Big Bang Be Inside a Black Hole? | Hypothesis, Not Proof",
+  "page": "Universe Impact",
+  "output": "universe_impact_black_hole_reel_dynamic_v2.mp4",
+  "cover": "universe_impact_black_hole_cover_dynamic_v2.jpg",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 77.9
+  },
+  "visual_strategy": {
+    "static_story_backgrounds_used": false,
+    "moving_nasa_source_shot_count": 34,
+    "typical_shot_duration_seconds": "approximately 2.1\u20132.6",
+    "source_audio_used": false,
+    "edit_elements": [
+      "portrait reframing",
+      "moving science-feed layouts",
+      "kinetic headline cards",
+      "original procedural score and accents"
+    ]
+  },
+  "voice_requested": {
+    "engine": "edge-tts",
+    "voice": "en-US-ChristopherNeural",
+    "rate": "+0%"
+  },
+  "voice_verification": "Requested configuration is retained in the build script. Existing render-only narration cache is not independently verified as Christopher in this sandbox.",
+  "scientific_framing": "Speculative hypothesis; no direct observational proof is claimed.",
+  "source_clips": {
+    "clip1_bh_orbit.mp4": {
+      "title": "Isolated Black Hole Visualization \u2014 Orbiting a bare black hole",
+      "page": "https://svs.gsfc.nasa.gov/14620/",
+      "asset": "https://svs.gsfc.nasa.gov/vis/a010000/a014600/a014620/1-Orbiting_a_bare_black_hole-4K.mp4",
+      "credit": "NASA's Goddard Space Flight Center; visualization by Robert Hurt"
+    },
+    "clip2_tde_shred.mp4": {
+      "title": "Massive Black Hole Shreds Passing Star",
+      "page": "https://svs.gsfc.nasa.gov/12005/",
+      "asset": "https://svs.gsfc.nasa.gov/vis/a010000/a012000/a012005/12005_Swift_Tidal_Music_MPEG4_1920X1080_2997.mp4",
+      "credit": "NASA's Goddard Space Flight Center / CI Lab"
+    },
+    "clip3_tde_disk.mp4": {
+      "title": "Isolated Black Hole Visualization \u2014 Tidal disruption by black hole",
+      "page": "https://svs.gsfc.nasa.gov/14620/",
+      "asset": "https://svs.gsfc.nasa.gov/vis/a010000/a014600/a014620/3-Tidal_disruption_by_black_hole-4K.mp4",
+      "credit": "NASA's Goddard Space Flight Center; visualization by Robert Hurt"
+    },
+    "clip4_tde_partial.mp4": {
+      "title": "Supercomputer Simulations Test Star-destroying Black Holes",
+      "page": "https://svs.gsfc.nasa.gov/14000/",
+      "asset": "https://svs.gsfc.nasa.gov/vis/a010000/a014000/a014000/1Msol_Ryu_TDE_4k_1.mp4",
+      "credit": "NASA's Goddard Space Flight Center / Taeho Ryu (MPA)"
+    },
+    "clip5_tde_fading.mov": {
+      "title": "Swift Charts a Star's 'Death Spiral' into Black Hole \u2014 shocks at apocenter",
+      "page": "https://svs.gsfc.nasa.gov/12499/",
+      "asset": "https://svs.gsfc.nasa.gov/vis/a010000/a012400/a012499/Shocks_at_Apocenter_Animation_FINAL-1080.mov",
+      "credit": "NASA's Goddard Space Flight Center"
+    }
+  },
+  "timeline": [
+    {
+      "key": "01_hook",
+      "start": 0.0,
+      "end": 4.79,
+      "narration": "What if the Big Bang was the inside of a black hole?"
+    },
+    {
+      "key": "02_hypothesis",
+      "start": 4.79,
+      "end": 13.35,
+      "narration": "Not a fact. Not a discovery. A breathtaking hypothesis called black hole cosmology."
+    },
+    {
+      "key": "03_bounce",
+      "start": 13.35,
+      "end": 25.15,
+      "narration": "In some models, collapse does not end at a singularity. Some quantum gravity ideas replace it with a bounce, opening a new region of expanding space time."
+    },
+    {
+      "key": "04_inside",
+      "start": 25.15,
+      "end": 34.43,
+      "narration": "From inside, that bounce could look like a Big Bang: no center, just space expanding everywhere at once."
+    },
+    {
+      "key": "05_limit",
+      "start": 34.43,
+      "end": 46.15,
+      "narration": "But this is where honesty matters. Our best theories clash in these extreme conditions, and no observation shows our universe was born this way."
+    },
+    {
+      "key": "06_fingerprint",
+      "start": 46.15,
+      "end": 59.1,
+      "narration": "To become science, the idea needs a fingerprint: a unique pattern in the cosmic microwave background, or primordial gravitational waves that rival explanations cannot copy."
+    },
+    {
+      "key": "07_honesty",
+      "start": 59.1,
+      "end": 65.3,
+      "narration": "Until then, the answer is not yes. It is: we do not know."
+    },
+    {
+      "key": "08_cta",
+      "start": 65.3,
+      "end": 78.1,
+      "narration": "That is still astonishing. The cosmos may be stranger than our best story. Universe Impact. Follow for wonder, evidence first."
+    }
+  ],
+  "shots": [
+    {
+      "scene": "01_hook",
+      "timeline_start": 0.0,
+      "timeline_end": 2.4,
+      "source_file": "clip1_bh_orbit.mp4",
+      "source_start": 4.2,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "01_hook",
+      "timeline_start": 2.4,
+      "timeline_end": 4.79,
+      "source_file": "clip5_tde_fading.mov",
+      "source_start": 0.6,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/12499/"
+    },
+    {
+      "scene": "02_hypothesis",
+      "timeline_start": 4.79,
+      "timeline_end": 6.923,
+      "source_file": "clip2_tde_shred.mp4",
+      "source_start": 11.8,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/12005/"
+    },
+    {
+      "scene": "02_hypothesis",
+      "timeline_start": 6.923,
+      "timeline_end": 9.057,
+      "source_file": "clip1_bh_orbit.mp4",
+      "source_start": 8.0,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "02_hypothesis",
+      "timeline_start": 9.057,
+      "timeline_end": 11.19,
+      "source_file": "clip5_tde_fading.mov",
+      "source_start": 3.2,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/12499/"
+    },
+    {
+      "scene": "02_hypothesis",
+      "timeline_start": 11.19,
+      "timeline_end": 13.35,
+      "source_file": "clip2_tde_shred.mp4",
+      "source_start": 16.2,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/12005/"
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 13.35,
+      "timeline_end": 15.717,
+      "source_file": "clip2_tde_shred.mp4",
+      "source_start": 10.4,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/12005/"
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 15.717,
+      "timeline_end": 18.083,
+      "source_file": "clip4_tde_partial.mp4",
+      "source_start": 15.2,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14000/"
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 18.083,
+      "timeline_end": 20.45,
+      "source_file": "clip5_tde_fading.mov",
+      "source_start": 0.5,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/12499/"
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 20.45,
+      "timeline_end": 22.817,
+      "source_file": "clip3_tde_disk.mp4",
+      "source_start": 7.0,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "03_bounce",
+      "timeline_start": 22.817,
+      "timeline_end": 25.15,
+      "source_file": "clip1_bh_orbit.mp4",
+      "source_start": 11.2,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "04_inside",
+      "timeline_start": 25.15,
+      "timeline_end": 27.483,
+      "source_file": "clip3_tde_disk.mp4",
+      "source_start": 9.6,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "04_inside",
+      "timeline_start": 27.483,
+      "timeline_end": 29.817,
+      "source_file": "clip5_tde_fading.mov",
+      "source_start": 4.0,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/12499/"
+    },
+    {
+      "scene": "04_inside",
+      "timeline_start": 29.817,
+      "timeline_end": 32.15,
+      "source_file": "clip2_tde_shred.mp4",
+      "source_start": 20.1,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/12005/"
+    },
+    {
+      "scene": "04_inside",
+      "timeline_start": 32.15,
+      "timeline_end": 34.43,
+      "source_file": "clip1_bh_orbit.mp4",
+      "source_start": 2.1,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 34.43,
+      "timeline_end": 36.763,
+      "source_file": "clip1_bh_orbit.mp4",
+      "source_start": 6.5,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 36.763,
+      "timeline_end": 39.097,
+      "source_file": "clip4_tde_partial.mp4",
+      "source_start": 23.8,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/14000/"
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 39.097,
+      "timeline_end": 41.43,
+      "source_file": "clip3_tde_disk.mp4",
+      "source_start": 12.5,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 41.43,
+      "timeline_end": 43.763,
+      "source_file": "clip2_tde_shred.mp4",
+      "source_start": 24.2,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/12005/"
+    },
+    {
+      "scene": "05_limit",
+      "timeline_start": 43.763,
+      "timeline_end": 46.15,
+      "source_file": "clip5_tde_fading.mov",
+      "source_start": 8.2,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/12499/"
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 46.15,
+      "timeline_end": 48.317,
+      "source_file": "clip4_tde_partial.mp4",
+      "source_start": 17.2,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14000/"
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 48.317,
+      "timeline_end": 50.483,
+      "source_file": "clip3_tde_disk.mp4",
+      "source_start": 8.5,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 50.483,
+      "timeline_end": 52.65,
+      "source_file": "clip2_tde_shred.mp4",
+      "source_start": 29.0,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/12005/"
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 52.65,
+      "timeline_end": 54.817,
+      "source_file": "clip5_tde_fading.mov",
+      "source_start": 5.0,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/12499/"
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 54.817,
+      "timeline_end": 56.983,
+      "source_file": "clip1_bh_orbit.mp4",
+      "source_start": 11.8,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "06_fingerprint",
+      "timeline_start": 56.983,
+      "timeline_end": 59.1,
+      "source_file": "clip4_tde_partial.mp4",
+      "source_start": 25.5,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14000/"
+    },
+    {
+      "scene": "07_honesty",
+      "timeline_start": 59.1,
+      "timeline_end": 61.167,
+      "source_file": "clip1_bh_orbit.mp4",
+      "source_start": 0.5,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "07_honesty",
+      "timeline_start": 61.167,
+      "timeline_end": 63.233,
+      "source_file": "clip2_tde_shred.mp4",
+      "source_start": 27.2,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/12005/"
+    },
+    {
+      "scene": "07_honesty",
+      "timeline_start": 63.233,
+      "timeline_end": 65.3,
+      "source_file": "clip3_tde_disk.mp4",
+      "source_start": 14.2,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 65.3,
+      "timeline_end": 67.867,
+      "source_file": "clip5_tde_fading.mov",
+      "source_start": 9.6,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/12499/"
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 67.867,
+      "timeline_end": 70.433,
+      "source_file": "clip4_tde_partial.mp4",
+      "source_start": 25.0,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/14000/"
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 70.433,
+      "timeline_end": 73.0,
+      "source_file": "clip1_bh_orbit.mp4",
+      "source_start": 9.6,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 73.0,
+      "timeline_end": 75.567,
+      "source_file": "clip2_tde_shred.mp4",
+      "source_start": 18.0,
+      "layout": "immersive",
+      "source_page": "https://svs.gsfc.nasa.gov/12005/"
+    },
+    {
+      "scene": "08_cta",
+      "timeline_start": 75.567,
+      "timeline_end": 78.1,
+      "source_file": "clip3_tde_disk.mp4",
+      "source_start": 5.0,
+      "layout": "wide",
+      "source_page": "https://svs.gsfc.nasa.gov/14620/"
+    }
+  ]
+}
