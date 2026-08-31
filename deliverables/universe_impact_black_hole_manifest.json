@@ -1,0 +1,68 @@
+{
+  "title": "Could the Big Bang Be Inside a Black Hole? | Hypothesis, Not Proof",
+  "page": "Universe Impact",
+  "output": "universe_impact_black_hole_reel.mp4",
+  "cover": "universe_impact_black_hole_cover.jpg",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 77.9
+  },
+  "voice_requested": {
+    "engine": "edge-tts",
+    "voice": "en-US-ChristopherNeural",
+    "rate": "+0%"
+  },
+  "scientific_framing": "Speculative hypothesis; no direct observational proof is claimed.",
+  "timeline": [
+    {
+      "key": "01_hook",
+      "start": 0.0,
+      "end": 4.79,
+      "narration": "What if the Big Bang was the inside of a black hole?"
+    },
+    {
+      "key": "02_hypothesis",
+      "start": 4.79,
+      "end": 13.35,
+      "narration": "Not a fact. Not a discovery. A breathtaking hypothesis called black hole cosmology."
+    },
+    {
+      "key": "03_bounce",
+      "start": 13.35,
+      "end": 25.15,
+      "narration": "In some models, collapse does not end at a singularity. Some quantum gravity ideas replace it with a bounce, opening a new region of expanding space time."
+    },
+    {
+      "key": "04_inside",
+      "start": 25.15,
+      "end": 34.43,
+      "narration": "From inside, that bounce could look like a Big Bang: no center, just space expanding everywhere at once."
+    },
+    {
+      "key": "05_limit",
+      "start": 34.43,
+      "end": 46.15,
+      "narration": "But this is where honesty matters. Our best theories clash in these extreme conditions, and no observation shows our universe was born this way."
+    },
+    {
+      "key": "06_fingerprint",
+      "start": 46.15,
+      "end": 59.1,
+      "narration": "To become science, the idea needs a fingerprint: a unique pattern in the cosmic microwave background, or primordial gravitational waves that rival explanations cannot copy."
+    },
+    {
+      "key": "07_honesty",
+      "start": 59.1,
+      "end": 65.3,
+      "narration": "Until then, the answer is not yes. It is: we do not know."
+    },
+    {
+      "key": "08_cta",
+      "start": 65.3,
+      "end": 78.1,
+      "narration": "That is still astonishing. The cosmos may be stranger than our best story. Universe Impact. Follow for wonder, evidence first."
+    }
+  ]
+}
