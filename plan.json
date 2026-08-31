@@ -1,0 +1,421 @@
+{
+ "starts": {
+  "s01": 0.0,
+  "s02": 14.66,
+  "s03": 27.94,
+  "s04": 43.10000000000001,
+  "s05": 62.10000000000001,
+  "s06": 82.82000000000001,
+  "s07": 106.38000000000001,
+  "s08": 122.81000000000002
+ },
+ "durations": {
+  "s01": 11.66,
+  "s02": 12.98,
+  "s03": 14.86,
+  "s04": 18.7,
+  "s05": 20.42,
+  "s06": 23.26,
+  "s07": 16.13,
+  "s08": 12.5
+ },
+ "total": 137.21,
+ "title_start": 11.78,
+ "title_dur": 2.9,
+ "shots": [
+  {
+   "id": "shot_hook",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img01_hook_trex.jpg",
+   "start": 0.0,
+   "end": 11.76,
+   "zoom": [
+    1.0,
+    1.14
+   ],
+   "pan": [
+    [
+     0.5,
+     0.46
+    ],
+    [
+     0.5,
+     0.4
+    ]
+   ]
+  },
+  {
+   "id": "title_slam",
+   "kind": "title",
+   "start": 11.78,
+   "end": 14.68
+  },
+  {
+   "id": "shot_iridium",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img02_iridium.jpg",
+   "start": 14.66,
+   "end": 27.64,
+   "zoom": [
+    1.1,
+    1.0
+   ],
+   "pan": [
+    [
+     0.5,
+     0.35
+    ],
+    [
+     0.5,
+     0.55
+    ]
+   ]
+  },
+  {
+   "id": "shot_ast_sky",
+   "kind": "proc_asteroid",
+   "start": 27.94,
+   "end": 34.14
+  },
+  {
+   "id": "shot_shred",
+   "kind": "video",
+   "src": "/home/user/video/sources/clip2_tde_shred.mp4",
+   "vstart": 34.0,
+   "start": 34.14,
+   "end": 38.14
+  },
+  {
+   "id": "shot_crater_a",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img03_crater.jpg",
+   "start": 38.14,
+   "end": 51.00000000000001,
+   "zoom": [
+    1.12,
+    1.0
+   ],
+   "pan": [
+    [
+     0.5,
+     0.45
+    ],
+    [
+     0.5,
+     0.42
+    ]
+   ]
+  },
+  {
+   "id": "shot_ast_img",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img04_asteroid.jpg",
+   "start": 51.00000000000001,
+   "end": 55.60000000000001,
+   "zoom": [
+    1.02,
+    1.16
+   ],
+   "pan": [
+    [
+     0.5,
+     0.42
+    ],
+    [
+     0.5,
+     0.38
+    ]
+   ],
+   "fx": "flicker"
+  },
+  {
+   "id": "shot_impact",
+   "kind": "proc_impact",
+   "start": 55.60000000000001,
+   "end": 61.900000000000006
+  },
+  {
+   "id": "shot_tanis_a",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img05_tanis.jpg",
+   "start": 62.10000000000001,
+   "end": 70.10000000000001,
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    [
+     0.5,
+     0.5
+    ],
+    [
+     0.5,
+     0.45
+    ]
+   ]
+  },
+  {
+   "id": "shot_ash",
+   "kind": "proc_ash",
+   "start": 70.10000000000001,
+   "end": 78.10000000000001
+  },
+  {
+   "id": "shot_tanis_b",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img05_tanis.jpg",
+   "start": 78.10000000000001,
+   "end": 82.52000000000001,
+   "zoom": [
+    1.08,
+    1.0
+   ],
+   "pan": [
+    [
+     0.5,
+     0.48
+    ],
+    [
+     0.5,
+     0.52
+    ]
+   ]
+  },
+  {
+   "id": "shot_tsunami",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img06_tsunami.jpg",
+   "start": 82.82000000000001,
+   "end": 90.82000000000001,
+   "zoom": [
+    1.0,
+    1.16
+   ],
+   "pan": [
+    [
+     0.5,
+     0.5
+    ],
+    [
+     0.5,
+     0.46
+    ]
+   ],
+   "fx": "tsunami"
+  },
+  {
+   "id": "shot_fire",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img07_firestorm.jpg",
+   "start": 90.82000000000001,
+   "end": 98.82000000000001,
+   "zoom": [
+    1.1,
+    1.0
+   ],
+   "pan": [
+    [
+     0.5,
+     0.45
+    ],
+    [
+     0.5,
+     0.48
+    ]
+   ],
+   "fx": "flicker"
+  },
+  {
+   "id": "shot_dark_a",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img08_darkness.jpg",
+   "start": 98.82000000000001,
+   "end": 102.82000000000001,
+   "zoom": [
+    1.0,
+    1.1
+   ],
+   "pan": [
+    [
+     0.5,
+     0.5
+    ],
+    [
+     0.5,
+     0.47
+    ]
+   ]
+  },
+  {
+   "id": "shot_fade",
+   "kind": "video",
+   "src": "/home/user/video/sources/clip5_tde_fading.mov",
+   "vstart": 5.0,
+   "start": 102.82000000000001,
+   "end": 106.08000000000001
+  },
+  {
+   "id": "shot_surv",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img09_survivor.jpg",
+   "start": 106.38000000000001,
+   "end": 113.48,
+   "zoom": [
+    1.0,
+    1.13
+   ],
+   "pan": [
+    [
+     0.5,
+     0.52
+    ],
+    [
+     0.5,
+     0.47
+    ]
+   ]
+  },
+  {
+   "id": "shot_bird",
+   "kind": "image",
+   "src": "/home/user/video/assets/dino/img10_bird.jpg",
+   "start": 113.48,
+   "end": 129.81,
+   "zoom": [
+    1.06,
+    1.0
+   ],
+   "pan": [
+    [
+     0.5,
+     0.45
+    ],
+    [
+     0.5,
+     0.5
+    ]
+   ]
+  },
+  {
+   "id": "end_card",
+   "kind": "endcard",
+   "start": 129.81,
+   "end": 137.21
+  }
+ ],
+ "captions": [
+  {
+   "id": "c01",
+   "text": "66 MILLION YEARS AGO",
+   "t0": 0.9,
+   "t1": 5.0,
+   "style": "cap"
+  },
+  {
+   "id": "c02",
+   "text": "3 OF EVERY 4 SPECIES DIED \u2014 IN ONE DAY",
+   "t0": 5.3,
+   "t1": 11.53,
+   "style": "cap"
+  },
+  {
+   "id": "c03",
+   "text": "A METAL FROM SPACE \u2014 ON EVERY CONTINENT",
+   "t0": 16.86,
+   "t1": 26.16,
+   "style": "cap"
+  },
+  {
+   "id": "c04",
+   "text": "WHAT IF A GIANT ASTEROID HIT EARTH?",
+   "t0": 34.94,
+   "t1": 41.44,
+   "style": "cap"
+  },
+  {
+   "id": "c05",
+   "text": "CHICXULUB: THE CRATER UNDER MEXICO",
+   "t0": 44.7,
+   "t1": 50.7,
+   "style": "cap"
+  },
+  {
+   "id": "c06",
+   "text": "THE KILLER: 9 MILES ACROSS",
+   "t0": 51.0,
+   "t1": 55.3,
+   "style": "cap"
+  },
+  {
+   "id": "c07",
+   "text": "10 BILLION HIROSHIMAS",
+   "t0": 55.9,
+   "t1": 61.4,
+   "style": "cap_big"
+  },
+  {
+   "id": "c08",
+   "text": "TANIS: THE FOSSIL GRAVEYARD",
+   "t0": 63.7,
+   "t1": 69.3,
+   "style": "cap"
+  },
+  {
+   "id": "c09",
+   "text": "GLASS FROM THE ASTEROID \u2014 IN THEIR GILLS",
+   "t0": 71.5,
+   "t1": 77.3,
+   "style": "cap"
+  },
+  {
+   "id": "c10",
+   "text": "THE DAY THE DINOSAURS DIED. CAUGHT IN THE ACT.",
+   "t0": 78.7,
+   "t1": 82.2,
+   "style": "cap"
+  },
+  {
+   "id": "c11",
+   "text": "A MEGATSUNAMI \u2014 TALLER THAN SKYSCRAPERS",
+   "t0": 84.12,
+   "t1": 90.02,
+   "style": "cap"
+  },
+  {
+   "id": "c12",
+   "text": "FIRESTORMS CIRCLED THE PLANET",
+   "t0": 92.12,
+   "t1": 98.02,
+   "style": "cap"
+  },
+  {
+   "id": "c13",
+   "text": "DARKNESS. FOR YEARS.",
+   "t0": 100.12,
+   "t1": 105.42,
+   "style": "cap_big"
+  },
+  {
+   "id": "c14",
+   "text": "75% OF ALL SPECIES \u2014 GONE",
+   "t0": 107.18,
+   "t1": 110.78,
+   "style": "cap_big"
+  },
+  {
+   "id": "c15",
+   "text": "BUT SOME SURVIVED",
+   "t0": 111.28,
+   "t1": 116.18,
+   "style": "cap"
+  },
+  {
+   "id": "c16",
+   "text": "YOU'RE LOOKING AT THEIR DESCENDANTS",
+   "t0": 116.98,
+   "t1": 129.31,
+   "style": "cap"
+  }
+ ]
+}

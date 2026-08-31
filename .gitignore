@@ -1,0 +1,5 @@
+# Final video master (325MB) — keep local, too large for GitHub
+dino_day_9x16.mp4
+
+# Regenerable intermediate clips (build with: python3 render_cgi.py)
+sources_dino/
