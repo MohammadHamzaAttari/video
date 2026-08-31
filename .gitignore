@@ -3,3 +3,7 @@ dino_day_9x16.mp4
 
 # Regenerable intermediate clips (build with: python3 render_cgi.py)
 sources_dino/
+
+# Recut regenerable clips (build with: python3 build_dino_recut.py --render)
+sources_recut/
+__pycache__/
