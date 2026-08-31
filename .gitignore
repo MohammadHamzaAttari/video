@@ -1,0 +1,13 @@
+# Local inspection frames and intermediate render cache
+/inspection/
+/build_universe_impact/
+/build_universe_impact_dynamic_v2/
+/build_universe_impact_fresh_3d_v3/
+/build_universe_impact_fresh_3d_v4/
+/image-search/
+
+# Python tooling
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
