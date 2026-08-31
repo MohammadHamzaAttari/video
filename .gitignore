@@ -7,3 +7,7 @@ sources_dino/
 # Recut regenerable clips (build with: python3 build_dino_recut.py --render)
 sources_recut/
 __pycache__/
+
+# Third-party stock footage clones (external resources, not part of pipeline)
+stock/
+tmp_interp/
