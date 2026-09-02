@@ -1,0 +1,9 @@
+{
+  "title": "Why Antarctica Froze First \u2014 mantle waves built the ice continent",
+  "duration_s": 102.6,
+  "resolution": "1080x1920",
+  "fps": 30,
+  "discovery": "Mantle waves uplifted East Antarctica (escarpment + Gamburtsev Mts) enabling glaciation 34 Ma, 25 My before the Arctic; ice-albedo cooled globe ~1\u00b0C; EAIS holds ~52 m sea level",
+  "source_paper": "Science \u2014 Gernon, Hincks et al., University of Southampton; ScienceDaily Aug 25/31 2026, Phys.org",
+  "visual_sources": "AI-rendered plates styled on copyright-free Pexels/NASA/USGS imagery; all motion, pointer overlays, mantle-wave/uplift/albedo FX coded in Python (numpy+PIL+ffmpeg)"
+}
