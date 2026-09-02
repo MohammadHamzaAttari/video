@@ -315,6 +315,15 @@ def grade(arr, fi, cold=1.0):
     a += g2
     return np.clip(a, 0, 255).astype(np.uint8)
 
+
+_WM = None
+def watermark(frame):
+    global _WM
+    if _WM is None:
+        from PIL import Image as _I
+        _WM = _I.open(A("assets", "brand", "watermark_1080x1920.png")).convert("RGBA")
+    frame.alpha_composite(_WM)
+
 def letterbox(frame):
     d = ImageDraw.Draw(frame)
     d.rectangle([0, 0, W, 88], fill=(2, 5, 9, 255))
@@ -605,6 +614,7 @@ def render():
             draw_caption(frame, VOICE[sc["i"]][1], (tt-va)/(vb-va))
 
         letterbox(frame)
+        watermark(frame)
         # progress bar
         d = ImageDraw.Draw(frame)
         d.rectangle([0, 84, int(W*gt/TOTAL), 88], fill=(*CYAN, 255))
