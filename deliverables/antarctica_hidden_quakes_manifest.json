@@ -1,0 +1,9 @@
+{
+  "title": "Antarctica's Hidden Earthquakes \u2014 the Doomsday Glacier is speaking",
+  "duration_s": 93.79,
+  "resolution": "1080x1920",
+  "fps": 30,
+  "discovery": "362 hidden glacial earthquakes (2010-2023), 245 at Thwaites marine edge",
+  "source_paper": "Geophysical Research Letters \u2014 Thanh-Son Pham (ANU); The Conversation/ScienceDaily Aug 30-31 2026; ScienceBlog Sep 1 2026",
+  "visual_sources": "Copyright-free reference plates: Pexels (icebergs, penguins), NASA (Thwaites satellite/OIB), USGS-Google Earth (Antarctica globe); re-rendered hi-res; overlays/pointer/seismograms coded in Python (numpy+PIL+ffmpeg)"
+}
